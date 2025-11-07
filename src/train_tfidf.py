@@ -10,6 +10,7 @@ from sklearn.metrics import classification_report, confusion_matrix
 from sklearn.pipeline import Pipeline
 from sklearn.calibration import CalibratedClassifierCV
 from joblib import dump
+from sklearn.neighbors import KNeighborsClassifier
 
 
 ROOT = os.path.dirname(__file__)
@@ -69,7 +70,8 @@ def main():
     # TF-IDF + Linear SVM pipeline and TF-IDF + Multinomial Naive Bayes pipeline
     base_clf = {
         "LinearSVC": LinearSVC(C=1.0),
-        "NaiveBayes" : MultinomialNB()
+        "NaiveBayes" : MultinomialNB(),
+        "KNN": KNeighborsClassifier(n_neighbors=7, metric="cosine", n_jobs=-1)
     }
 
 
