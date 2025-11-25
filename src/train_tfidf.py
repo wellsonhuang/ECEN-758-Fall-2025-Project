@@ -234,12 +234,6 @@ def main():
         print(classification_report(y_val, y_val_pred))
         print(confusion_matrix(y_val, y_val_pred))
 
-        # test metrics
-        print("\n--- Test Metrics ---")
-        y_test_pred = pipe.predict(test_texts)
-        print(classification_report(y_test, y_test_pred))
-        print(confusion_matrix(y_test, y_test_pred))
-
         # save model
         model_filename = f"tfidf_char12_{model_name.lower()}.joblib"
         model_path = os.path.join(MODEL_DIR, model_filename)
