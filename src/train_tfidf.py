@@ -205,7 +205,6 @@ def main():
 
     }
 
-
     # for calibrated probabilities:
     # base_clf = CalibratedClassifierCV(LinearSVC(C=1.0), method="isotonic", cv=3)
     for model_name, classifier in base_clf.items():
@@ -226,7 +225,7 @@ def main():
             ("clf", classifier),
         ])
 
-        # fit TF-IDF + LinearSVC and TF-IDF + MultinomialNB on train split
+        # fit TF-IDF + MultinomialNB, KNN, LinearSVC on train split
         pipe.fit(X_train, y_train)
 
         # validation metrics
