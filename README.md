@@ -10,6 +10,32 @@ We implemented and evaluated several text categorization models to benchmark per
 * **1D CNN**
 * **TextCNN**
 
+  ## 📂 Project Structure
+```text
+ECEN-758-Fall-2025-Project/
+├── data/                      # Training and testing datasets
+│   ├── sogou_test.csv
+│   └── sogou_train.csv
+├── models/                    # Serialized trained models (.joblib)
+│   ├── linearsvc_final.joblib # Best performing LinearSVC model
+│   └── ...                    # Baseline models (KNN, Naive Bayes)
+├── plots/                     # Generated visualizations
+│   ├── class_distribution.png
+│   ├── confusion_matrix.png
+│   ├── dim_reduction.png
+│   └── text_length_statistics.png
+├── src/                       # Source code
+│   ├── Data_Mining_project.ipynb # 1D CNN and TextCNN notebook
+│   ├── model_tuning.py        # Hyperparameter tuning script for LinearSVC
+│   ├── preprocess_sogou.py    # Data cleaning and tokenization
+│   ├── test.py                # Evaluation on test data
+│   ├── tfidf_tuning.py        # TF-IDF vectorizer optimization
+│   └── train_tfidf.py         # Main training pipeline
+├── .gitignore                 # Files to exclude from git
+├── requirements.txt           # Python dependencies
+└── README.md                  # Project documentation
+```
+
 Follow the steps below to run and evaluate the final trained model.
 
 ## Step 1: Clone the repository
