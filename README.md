@@ -12,10 +12,11 @@ We implemented and evaluated several text categorization models to benchmark per
 
 Follow the steps below to run and evaluate the final trained model.
 
-## **Step 1 - Clone the repository
-
-git clone [https://github.com/wellsonhuang/ECEN-758-Fall-2025-Project.git](https://github.com/wellsonhuang/ECEN-758-Fall-2025-Project.git)
-cd ECEN-758-Fall-2025-Projectbash
+## Step 1: Clone the repository
+```bash
+git clone https://github.com/wellsonhuang/ECEN-758-Fall-2025-Project.git
+cd ECEN-758-Fall-2025-Project
+```
 
 ## **Step 2 — Install requirements**
 pip install -r requirements.txt
