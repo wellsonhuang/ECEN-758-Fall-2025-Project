@@ -1,5 +1,5 @@
 # ECEN-758-Fall-2025-Project Group 6
-This project classifies news articles from the SogouNews dataset into multiple categories. We implemented and evaluated different text classification models to analyze their performance.
+This repository conatins the full implementation of our Group 6's project that classifies news articles from the SogouNews dataset into multiple categories. We implemented and evaluated different text classification models to analyze their performance. Follow the steps below to run and evaluate the final trained model.
 
 ## **Step 1 — Install requirements**
 pip install -r requirements.txt
