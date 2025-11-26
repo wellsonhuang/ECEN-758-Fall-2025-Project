@@ -1,5 +1,16 @@
-# ECEN-758-Fall-2025-Project Group 6
-This repository contains the complete implementation of Group 6's project, which classifies news articles from the SogouNews dataset into various categories. We executed and assessed various text categorization models to determine their effectiveness. Follow the steps below to run and evaluate the final trained model.
+# SogouNews Text Classification (ECEN 758 - Group 6)
+
+## 📌 Project Overview
+This repository contains the implementation for the **ECEN 758 (Fall 2025)** Group 6 project. The goal of this project is to classify news articles from the **SogouNews dataset** into various topic categories (Sports, Finance, Entertainment, Technology). We executed and assessed various text categorization models to determine their effectiveness.
+
+We implemented and evaluated several text categorization models to benchmark performance, including:
+* **[Model A Name]** (Mutinomial Naive Bayes)
+* **[Model B Name]** (KNN)
+* **[Model C Name]** (LinearSVC)
+* **[Model C Name]** (1D CNN)
+* **[Model C Name]** (TextCNN)
+
+Follow the steps below to run and evaluate the final trained model.
 
 ## **Step 1 - Clone the repository
 git clone https://github.com/wellsonhuang/ECEN-758-Fall-2025-Project.git
