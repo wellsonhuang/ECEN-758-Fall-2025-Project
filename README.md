@@ -1,4 +1,4 @@
-# ECEN-758-Fall-2025-Project
+# ECEN-758-Fall-2025-Project Group 6
 This project classifies news articles from the SogouNews dataset into multiple categories. We implemented and evaluated different text classification models to analyze their performance.
 
 ## **Step 1 — Install requirements**
