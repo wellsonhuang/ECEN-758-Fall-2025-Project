@@ -71,10 +71,5 @@ y_val_pred = pipe.predict(X_val)
 print(classification_report(y_val, y_val_pred))
 print(confusion_matrix(y_val, y_val_pred))
 
-print("\n--- Test Metrics ---")
-y_test_pred = pipe.predict(test_texts)
-print(classification_report(y_test, y_test_pred))
-print(confusion_matrix(y_test, y_test_pred))
-
 model_path = os.path.join(MODEL_DIR, "linearsvc_final.joblib")
 dump(pipe, model_path)
