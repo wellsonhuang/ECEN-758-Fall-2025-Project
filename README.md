@@ -1,7 +1,7 @@
 # SogouNews Text Classification (ECEN 758 - Group 6)
 
 ## 📌 Project Overview
-This repository contains the implementation for the **ECEN 758 (Fall 2025)** Group 6 project. The goal of this project is to classify news articles from the **SogouNews dataset** into various topic categories (Sports, Finance, Entertainment, Technology). We executed and assessed various text categorization models to determine their effectiveness.
+This repository contains the implementation for the **ECEN 758 (Fall 2025)** Group 6 project. The goal of this project is to classify news articles from the **SogouNews dataset** into various topic categories (Sports, Finance, Entertainment, Technology).
 
 We implemented and evaluated several text categorization models to benchmark performance, including:
 * **Mutinomial Naive Bayes**
